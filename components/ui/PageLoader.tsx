@@ -21,7 +21,7 @@ export default function PageLoader() {
 
         {/* Text */}
         <p className="font-bold text-gray-900 tracking-wide">
-          Loading DHL Delivery…
+          Loading DHL Express…
         </p>
       </div>
     </motion.div>
