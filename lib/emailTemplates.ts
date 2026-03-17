@@ -2,7 +2,7 @@ export function trackingEmailTemplate(
   name: string,
   trackingCode: string
 ) {
-  const trackingUrl = `https://www.dhl-delivery.org/track?code=${trackingCode}`;
+  const trackingUrl = `https://www.dhl-express.company/track?code=${trackingCode}`;
 
   return `
   <div style="margin:0;padding:0;background-color:#f5f5f5;">
@@ -18,13 +18,13 @@ export function trackingEmailTemplate(
                 <!-- LOGO -->
                 <img
                   src="https://www.dhl-delivery.org/logo.png"
-                  alt="DHL Delivery"
+                  alt="DHL Express"
                   width="120"
                   style="display:block;margin:0 auto 10px;"
                 />
                 <h1 style="margin:0;font-family:Arial,Helvetica,sans-serif;
                   font-size:18px;color:#ffffff;font-weight:bold;">
-                  DHL DELIVERY
+                  DHL Express
                 </h1>
               </td>
             </tr>
@@ -87,7 +87,7 @@ export function trackingEmailTemplate(
                 </div>
 
                 <p style="font-size:14px;margin:0;">
-                  Thank you for choosing <strong>Global Delivery</strong>.
+                  Thank you for choosing <strong>Dhl Express</strong>.
                   We are committed to fast and reliable delivery services.
                 </p>
               </td>
@@ -98,7 +98,7 @@ export function trackingEmailTemplate(
               <td style="background:#f3f4f6;padding:15px;text-align:center;
                 font-family:Arial,Helvetica,sans-serif;">
                 <p style="margin:0;font-size:12px;color:#666;">
-                  © ${new Date().getFullYear()} DHL Delivery. All rights reserved.
+                  © ${new Date().getFullYear()} DHL Express. All rights reserved.
                 </p>
                 <p style="margin:5px 0 0;font-size:12px;color:#666;">
                   This is an automated email. Please do not reply.

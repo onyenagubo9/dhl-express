@@ -6,7 +6,7 @@ export async function POST(req: Request) {
 
   try {
     await transporter.sendMail({
-      from: `"Delivery App" <${process.env.ZOHO_EMAIL}>`,
+      from: `"DHL Express" <${process.env.ZOHO_EMAIL}>`,
       to,
       subject,
       html: `<p>${message}</p>`,
